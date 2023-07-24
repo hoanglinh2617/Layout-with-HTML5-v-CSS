@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    font-family: 'Lumanosimo', cursive;
+    font-weight: 500px;
+  }
+  #main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  #head {
+    height: 100px;
+    width: 100%; display: inline-block; 
+
+  }
+  .logo {
+    background-color: beige;
+    border: 1px solid black;
+    float: left;
+    height: 100px;
+    border-right: 2px solid rgb(74, 68, 68);
+    width: 140px; 
+  }
+  .banner {
+    width: 840px;
+    background-color: blueviolet;
+    float: right;
+    border: 1px solid rgb(74, 68, 68);
+    height: 100px;
+  }
+  #nav { background-color: aqua;margin-top: 0px;
+    height: 50px; clear:both;}
+.menu {list-style-type: none; 
+}
+.menu-item { width: 100px;
+    display: inline-block;
+    float: left;
+    padding: 15px;
+}
+.search-box {
+    float: right;
+    padding: 15px 10px;
+  }
+  .box {
+    border-radius: 10px;
+    padding: 5px;
+  }
+  #content-left {background-color: pink;
+    height: 400px; 
+    width:600px; 
+    float:left; padding: 10px;
+
+}
+  #content-right  {background-color: beige;
+height: 400px; 
+width: 380px;
+float:right;
+}
+.section {height: 190px; 
+    border: 1px solid black}
+.article {height: 190px; 
+    border: 1px solid black}
+
+#footer {background-color: chartreuse; height: 100px;
+clear:both;}
+.footer-text {font-size: 12px;}
